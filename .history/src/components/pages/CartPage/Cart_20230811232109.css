@@ -1,0 +1,4 @@
+.cart-wrapper-cat{
+  display: flex;
+  flex-direction: column;
+}

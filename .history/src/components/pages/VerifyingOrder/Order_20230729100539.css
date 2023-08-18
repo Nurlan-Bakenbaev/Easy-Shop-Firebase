@@ -1,0 +1,64 @@
+.order__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.order-form,.cost__items{
+    padding: 40px;
+    background-color: white;
+    width: 450px;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+.address,.house__number,.client__contact{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: rgb(223, 223, 223);
+   border-radius: 10px;
+}
+.form input,.client__contact input{
+    border: none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+.house__number div,.region__street{
+    display: flex;
+    flex-direction: row;
+}
+
+.order__grid ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.payment{
+    margin: 10px;
+    font-weight: bolder;
+    background-color: orange;
+    padding: 10px;
+}
+.client__contact{
+    display: flex;
+    flex-direction: column;
+} 
+.cost__items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,22 @@
+/* src/Intro.css */
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .fade-in-out {
+    opacity: 0;
+    animation: fadeInOutAnimation 4s ease-in-out infinite;
+  }
+  
+  @keyframes fadeInOutAnimation {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  

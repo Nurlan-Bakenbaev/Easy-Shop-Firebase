@@ -1,0 +1,13 @@
+.cart-wrapper-cat{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: black;
+  border: 1px solid red;
+  
+}
+.cart_img{
+  width: 100px;
+  height: 50px;
+}

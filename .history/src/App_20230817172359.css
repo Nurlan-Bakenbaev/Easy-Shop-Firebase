@@ -1,0 +1,112 @@
+.headPhones,
+.wireless,
+.favorite-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.favorite {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fav__card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fav__card-item button {
+  padding: 10px 25px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition:background-color 0.3s ease-in ;
+  transition: scale 2s;
+  border: none;
+  outline: none;
+}
+.fav__card-item button:hover{
+background-color:red;
+transform: scale(1.05);
+}
+
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  gap: 30px;
+}
+
+.contacs {
+  border: 1px solid white;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.contacs iframe{
+  width: 100%;
+  height: 60vh;
+  border: none;
+}
+.contacs-map{
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.contact-social-media{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ .contact-social-media svg{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+}
+@media(max-width:320px){
+  .contacs-map{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .contact-social-media{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .contact-social-media svg{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .contacs {
+    margin-bottom: 10px;
+  }
+  
+}

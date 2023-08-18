@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-color: #EAEAEA;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 70vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+li{
+    list-style-type:none;
+}
+iframe{
+    border: none;
+}
+@media (max-width:320px){
+    .container{
+        width: 100%;
+        padding: 15px;
+      }
+      .terms {
+        margin: 10px;
+        gap: 20px;
+      }
+}

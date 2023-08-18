@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-color: #EAEAEA;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+li{
+    list-style-type:none;
+}
+iframe{
+    border: none;
+}
+.about_product,{
+    min-height: 100vh;
+}

@@ -1,0 +1,64 @@
+.dflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 100%;
+  transition: background-color 0.3s ease-in;
+}
+
+footer:hover {
+  background-color: white;
+}
+
+footer li {
+  margin: 5px;
+  padding: 5px;
+  transition: background-color 0.5s ease;
+  border-radius: 20px;
+}
+
+footer li:hover {
+  background-color: rgb(211, 210, 208);
+}
+
+.social-media svg {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: none;
+  }
+
+  footer li {
+    margin: 13px;
+    padding: 8px;
+  }
+}
+
+
+
+@media (max-width: 320px) {
+  .footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  }
+  footer li {
+    margin: 13px;
+    padding: 8px;
+  }
+}

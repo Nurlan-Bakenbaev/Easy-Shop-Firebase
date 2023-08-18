@@ -1,0 +1,47 @@
+.banner-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.banner-bg video{
+  maxwidth: 100%;
+}
+@media (max-width:768px){
+  .banner-bg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .banner-bg video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width:320px) {
+  .banner-bg {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 200px;
+      background-color: black;
+      padding: 0;
+      border-radius: 0;
+      overflow:visible;
+      margin-top: 20px;  
+  }
+  .banner-bg video {
+    max-width: 100%;
+    height: auto;
+  }
+}

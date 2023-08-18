@@ -1,0 +1,22 @@
+import React, { useState } from "react";
+import "./Cart.css";
+import { Link } from "react-router-dom";
+const Cart = ({ emptyCart }) => {
+  const [cartIsFull, setCartIsFull] = useState(true);
+  return (
+    <div className="cart-wrapper-cat">
+      {emptyCart.map((item) => (
+        <div className="card-cart" key={item.id}>
+          <img src={item.img} alt={item.title} className="card-img-cart" />
+          <div className="card-body-cart">
+            <h3 className="card-title-cart">{item.title}</h3>
+            <p className="card-price-cart">${item.price}</p>
+            <div className="card-rating-cart">Rating: {item.rating}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Cart;

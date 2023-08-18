@@ -1,0 +1,29 @@
+.banner-bg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid red;
+  width: 100%;
+}
+@media (max-width:320px) {
+  .banner-bg {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 200px;
+      background-color: black;
+      padding: 0;
+      border-radius: 0;
+      overflow:visible;
+      border: 1px solid red;  
+  }
+  .banner-bg video {
+    max-width: 100;
+    height: auto;
+  }
+}

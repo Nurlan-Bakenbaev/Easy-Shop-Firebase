@@ -1,0 +1,82 @@
+.about__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.dFlex,
+.about__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__price h1 {
+  font-size: 30px;
+}
+.about__price p {
+  font-size: 28px;
+  color: rgb(153, 153, 153);
+}
+.aboutGrid{
+  display: grid;
+  grid-template-columns: 5fr 1.2fr;
+  align-items: baseline;
+  gap: 50px;
+  
+}
+.item__Informaton{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 30px;
+}
+.item__Informaton li{
+  padding-left: 20px;
+  line-height: 25px;
+}
+.about-btn{
+  display: flex;
+  flex-direction: column;
+  color: white;gap: 10px;
+
+}
+.about-btn button {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.about-btn a{
+  color: white;
+}
+.about-btn button:hover{
+  transform: scale(1.03);
+  background: linear-gradient(to bottom, #36275a, #651a1a);
+}
+.pre__loading{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width:320px){
+  .aboutGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .aboutGrid{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
