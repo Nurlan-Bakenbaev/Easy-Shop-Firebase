@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # EasyShop
 # easyShop
 # laden
+# easySHOP
